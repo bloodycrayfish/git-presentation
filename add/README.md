@@ -36,5 +36,5 @@ Your branch is up to date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-        modified:   hipster.txt
-```
+        modified:   hipster.txt```
+
