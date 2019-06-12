@@ -1,7 +1,7 @@
 # add example
 this folder contains an example of how to use the `git add` command
 
-## change file
+## Usage
 
 Open the git terminal in the this folder (add)
 
@@ -30,7 +30,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 This message tells you that on your master branch (`origin/master`) there are new changes (`modified:   hipster.txt`) not added to the staging area (`Changes not staged for commit:`) i.e. these changes are still just in the working directory. In order to add these files to the staging area you have to use the `git add hipster.txt` command.
 
-Once you have done this, run git `status again`. You will see the following confirming that the file is now in the staging area: 
+Once you have done this, run `git status` again. You will see the following confirming that the file is now in the staging area: 
 
 ```
 On branch master
@@ -41,3 +41,21 @@ Changes to be committed:
 
         modified:   hipster.txt
 ```
+
+This means the file is now ready to be tracked.
+
+Before moving on use the following commands to undo the changes made up till now:
+
+To remove the file from the staging area:
+```
+git reset HEAD hipster.txt
+```
+This reverts the changes in the staging area to the previous commit (HEAD).
+
+To revert the changes to the file:
+```
+git checkout -- hipster.txt
+```
+This checks out the file (indicated by -- hipster.txt) from the previous commit which overwrites changes made in the working directory
+
+The process above does not just work on editing files but also on adding new files
