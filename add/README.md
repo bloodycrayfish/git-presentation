@@ -15,7 +15,8 @@ Open hipster.txt in your prefered text editor and past the following paragraph b
 
 Now run the `git status` command again. The following message should appear in the terminal:
 
-```On branch master
+```
+On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
@@ -24,17 +25,19 @@ Changes not staged for commit:
 
         modified:   hipster.txt
 
-no changes added to commit (use "git add" and/or "git commit -a")```
+no changes added to commit (use "git add" and/or "git commit -a")
+```
 
 This message tells you that on your master branch (`origin/master`) there are new changes (`modified:   hipster.txt`) not added to the staging area (`Changes not staged for commit:`) i.e. these changes are still just in the working directory. In order to add these files to the staging area you have to use the `git add hipster.txt` command.
 
 Once you have done this, run git `status again`. You will see the following confirming that the file is now in the staging area: 
 
-```On branch master
+```
+On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-        modified:   hipster.txt```
-
+        modified:   hipster.txt
+```
