@@ -5,7 +5,7 @@ this folder contains an example of how to use the `git add` command
 
 Open the git terminal in the this folder (add)
 
-Use the `git status` command to make sure that there are no changes to the project 
+Use the `git status` command to make sure that there are no changes to the project. You should see "nothing to commit, working tree clean" written in the terminal
 
 This folder contains a file called hipster.txt
 
