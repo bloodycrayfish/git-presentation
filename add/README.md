@@ -1,2 +1,2 @@
-# git-presentation
-presentation examples on usage of git
+# add example
+this folder contains an example of how to use the `git add` command
